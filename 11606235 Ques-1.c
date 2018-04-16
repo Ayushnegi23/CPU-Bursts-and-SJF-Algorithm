@@ -7,7 +7,7 @@
       int bt[20], pro[20], wt[20], tt[20];
       printf("\nEnter the Total Number of Processes you wounld like to enter:\t");
       scanf("%d", &lim); 
-      for(i=0;i<limit;i++)
+      for(i=0;i<lim;i++)
       {
             printf("Enter the Burst Time For the Process[%d]:\t", i+1);
             scanf("%d", &bt[i]);
